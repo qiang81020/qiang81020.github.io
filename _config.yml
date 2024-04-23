@@ -5,4 +5,7 @@ remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
 # mathjax: https://cdn.bootcss.com/mathjax/2.7.0/MathJax.js
-markdown: kramdown
+mathjax:
+  enable: true # MathJax equations, e.g. true, false (default)
+  combo: tex-mml-chtml # "tex-svg" (default), "tex-mml-chtml", etc.: docs.mathjax.org/en/latest/web/components/combined.html
+  tags: all # "none", "ams" (default), "all"

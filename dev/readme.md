@@ -1,7 +1,3 @@
----
-layout: default
-mathjax: true
----
 
 # 开发页面
 
